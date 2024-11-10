@@ -290,7 +290,7 @@ exp(coef(logistic_B))
 #Odd ratio C
 exp(coef(logistic_C))
 ```
-The odd ratio association test shows that the resistance has a positive association with rs4244285 (CYP2C19\*2), rs4986893 (CYP2C19\*3) OR >1, whereas rs662(PON1. 192Q\>R) has OR<1 meaning that the resistance decreased by 10%.
+The odd ratio association test shows that the resistance has a positive association with rs4244285 (CYP2C19\*2), rs4986893 (CYP2C19\*3) OR >1, whereas rs662(PON1. 192Q\>R) has odd ratio value is near to 1 meaning that there is no association with this SNP.
 
 
 
