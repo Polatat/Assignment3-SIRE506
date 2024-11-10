@@ -280,7 +280,7 @@ qqnorm(residuals_devianceC, main = "QQ Plot of Deviance Residuals")
 qqline(residuals_devianceC, col = "green", lwd = 2)
 ```
 
-## Odd ratio
+### Odd ratio
 
 ```{r}
 # Odd ratio A
