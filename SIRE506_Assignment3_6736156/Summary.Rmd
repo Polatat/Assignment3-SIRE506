@@ -280,6 +280,20 @@ qqnorm(residuals_devianceC, main = "QQ Plot of Deviance Residuals")
 qqline(residuals_devianceC, col = "green", lwd = 2)
 ```
 
+## Odd ratio
+
+```{r}
+# Odd ratio A
+exp(coef(logistic_A))
+# Odd ratio B
+exp(coef(logistic_B))
+#Odd ratio C
+exp(coef(logistic_C))
+```
+The odd ratio association test shows that the resistance has a positive association with rs4244285 (CYP2C19\*2), rs4986893 (CYP2C19\*3) OR >1, whereas rs662(PON1. 192Q\>R) has OR<1 meaning that the resistance decreased by 10%.
+
+
+
 ```{r}
 # Adding Confounding  for control bias or adjusting for covariates.
 
