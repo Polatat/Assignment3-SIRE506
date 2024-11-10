@@ -7,7 +7,7 @@ output: pdf_document
 
 This statistical report aims to test the association between ADP-induced platelet aggregation level as well as Clopidogrel resistance with three SNPs, which are composed of rs4244285 (CYP2C192), rs4986893 (CYP2C193), and rs662 (PON1. 192Q\>R). From the TSV file, I found two confounding factors, age, and sex, that I used to adjust the association tests. I used linear and logistic regression to test the association. Linear regression for ADP with the SNPs because ADP is a continuous variable for dependent outcomes, whereas logistic regression tests with drug resistance and the SNPs due to the fact that the resistance is binary outcomes.
 
-There are 11 variables in PlateletHw.tsv: IID, ADP, Resistance, rs244285, rs498693, rs662, AGE, SEX, PON.192Q\>R, CYP2C192, and CYP2CP3.In additional, sex and ADP are continuous data, while the others are categorical data. rs4224285 correlated with CYP2C19\*2 have 0 = GG 1 = AG 2 =AA.On he other hand rs48693(CYP2C193) and rs662(PON1.192Q\>R) have 0 =AA, 1 = AG, and 2 = GG. For sex 0 = male , 1 = female, and drug resistance 0 = not resistance 1 = resistance.
+There are 11 variables in PlateletHw.tsv: IID, ADP, Resistance, rs244285, rs498693, rs662, AGE, SEX, PON.192Q\>R, CYP2C192, and CYP2CP3.In additional, age and ADP are continuous data, while the others are categorical data. rs4224285 correlated with CYP2C19\*2 have 0 = GG 1 = AG 2 =AA.On he other hand rs48693(CYP2C193) and rs662(PON1.192Q\>R) have 0 =AA, 1 = AG, and 2 = GG. For sex 0 = male , 1 = female, and drug resistance 0 = not resistance 1 = resistance.
 
 ## Cleaning file
 
